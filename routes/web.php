@@ -2,6 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\indexController;
+use App\Http\Controllers\karyawanController;
+use App\Http\Controllers\gajiController;
+use App\Http\Controllers\laporanController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,7 +17,10 @@ use App\Http\Controllers\indexController;
 |
 */
 Route::get('/home',[indexController::class, 'index']);
-
+Route::get('/jabatan',[indexController::class, 'jabatan']);
+Route::get('/gaji',[indexController::class, 'gaji']);
+Route::get('/karyawan',[indexController::class, 'karyawan']);
+Route::get('/laporan',[indexController::class, 'laporan']);
 Route::get('/', function () {
     return view('layout/main');
 
