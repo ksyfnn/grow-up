@@ -6,7 +6,7 @@
     <title></title>
     <link rel="stylesheet" href="{{ asset("css/bootstrap.min.css") }}">
   </head>
-  <body style="font-family: poppins;">
+  <body>
     <!-- NAVBAR -->
         <nav class="navbar navbar-expand-lg bg-dark">
             <div class="container">
@@ -20,7 +20,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto" style="text-transform: capitalize;">
                         <li class="nav-item">
-                            <a href="/home" class="nav-link active text-light fs-5" aria-current="page">home</a>
+                            <a href="/home" class="nav-link active text-warning fs-5" aria-current="page">home</a>
                         </li>
                         <li class="nav-item">
                             <a href="/jabatan" class="nav-link active text-light fs-5" aria-current="page">jabatan</a>

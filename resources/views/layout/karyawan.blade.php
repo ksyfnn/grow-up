@@ -5,14 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
     <link rel="stylesheet" href="{{ asset("css/bootstrap.min.css") }}">
+    <style>
+        .action{
+            display: inline-block;
+        }
+        .judul{
+            text-transform: uppercase;
+        }
+        tbody, tr, td{
+            text-transform: capitalize;
+        }
+    </style>
   </head>
-  <body style="font-family: poppins;">
+  <body>
     <!-- NAVBAR -->
         <nav class="navbar navbar-expand-lg bg-dark">
             <div class="container">
                 <a class="navbar-brand text-light" href="/home">
                     <img src="{{asset ("css/image/nazi.png") }}" alt="logo" width="40" heigth="40" class="me-3">
-                    <strong>PT. NAZI</strong>
+                    <strong>PT. GROW UP</strong>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controll="navbarNav" aria-expended="false" aria-label="toggle-navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -26,7 +37,7 @@
                             <a href="/jabatan" class="nav-link active text-light fs-5" aria-current="page">jabatan</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/karyawan" class="nav-link active text-light fs-5" aria-current="page">karyawan</a>
+                            <a href="/karyawan" class="nav-link active text-warning fs-5" aria-current="page">karyawan</a>
                         </li>
                         <li class="nav-item">
                             <a href="/gaji" class="nav-link active text-light fs-5" aria-current="page">gaji</a>
